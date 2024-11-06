@@ -14,3 +14,6 @@ This project implements a lightweight FastAPI server for Retrieval-Augmented Gen
    ```bash
    git clone https://github.com/YOUR_USERNAME/fastapi-chromadb-rag.git
    cd fastapi-chromadb-rag
+python -m venv venv
+source venv/bin/activate  # On Windows: venv\Scripts\activate
+pip install -r requirements.txt
